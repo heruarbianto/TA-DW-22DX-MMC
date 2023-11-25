@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: 0;
+  scroll-behavior: smooth;
+  font-family: "Open Sans";
+}
+
+:root{
+    --text-color: #fff;
+    --bg-color: #000;
+    --main-color:  #ffa343;
+    --h1-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+}
+
+body{
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: yellowgreen;
+  padding: 27px 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all .5s ease;
+  max-height: 65px;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav a{
+  color: var(--text-color);
+  font-size: var(--p-font);
+  white-space: nowrap;
+  font-weight: 500;
+  margin: 15px 22px;
+  transition: all .5s ease;
+}
+
+.nav a:hover{
+  color: var(--main-color);
+}
+
+/* Sementara */
+.nav .isi-dropdown a{
+  white-space: normal;
+  margin: 15px 0;
+}
+.nav .isi-dropdown{
+  display: none;
+  position: absolute;
+}
+
+.nav li:hover .isi-dropdown{
+  display: block;
+}
