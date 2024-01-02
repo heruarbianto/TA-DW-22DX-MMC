@@ -6,8 +6,12 @@ window.addEventListener("scroll", function() {
 
 let menu = document.querySelector('#hamburger');
 let navbar = document.querySelector('.nav');
+let isiDropDown = document.querySelector('.isi-dropdown');
+let layanan = document.querySelector('#layanan');
+
 
 menu.onclick = () =>{
     navbar.classList.toggle('open');
-
+    isiDropDown.style.display = "block";
+    layanan.style.display = "none";
 };

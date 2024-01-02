@@ -63,7 +63,7 @@ header.sticky{
   color: var(--main-color);
 }
 
-/* Sementara */
+
 .nav .isi-dropdown{
   display: none;
   position: absolute;
@@ -362,8 +362,6 @@ section{
   }
 }
 
-
- 
 .hidden{
   display: none;
 }
