@@ -421,7 +421,7 @@ section{
 }
 
 .modal_layout {
-  display: flex;
+  display: none;
   position: fixed;
   left: 0;
   top: 0;
@@ -451,6 +451,16 @@ section{
   justify-content: center;
   padding: 2rem;
   height: 100%;
+}
+
+.modal_content img {
+  height: 40%;
+}
+
+.modal_content p {
+  color: var(--bg-color);
+  margin-left: 25px;
+  text-align: justify; 
 }
 
 @media (max-width: 800px){
