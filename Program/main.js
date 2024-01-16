@@ -24,7 +24,7 @@ menu.onclick = () => {
   document.querySelector("#modal_image").alt = "gambar seputar teknologi hijau";
   // tampilkan text paragraf
   document.querySelector("#modal_text").textContent =
-    "coba text isi paragraf";
+    "Selamat datang di Teknologi Hijau, tempat di mana inovasi bertemu keberlanjutan. Kami adalah pionir dalam membawa solusi terkini untuk mewujudkan masa depan yang berkelanjutan. Dengan fokus pada energi terbarukan, transportasi ramah lingkungan, dan pengolahan limbah, kami berkomitmen untuk mengurangi dampak lingkungan dan menciptakan dunia yang lebih baik.";
 });
 
 document.querySelector("#modal_close_icon").addEventListener("click", () => {

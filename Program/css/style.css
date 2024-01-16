@@ -438,6 +438,7 @@ section{
   margin: 5% auto;
   border: 1px solid var(--main-color);
   padding: 0.5rem;
+  animation: modal_transition 0.5s;
 }
 
 .modal_frame a {
@@ -462,6 +463,17 @@ section{
   color: var(--bg-color);
   margin-left: 25px;
   text-align: justify; 
+}
+
+@keyframes modal_transition {
+  from {
+    top: -100%;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 @media (max-width: 800px){
