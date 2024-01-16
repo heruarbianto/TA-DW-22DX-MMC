@@ -439,6 +439,20 @@ section{
   padding: 0.5rem;
 }
 
+.modal_frame a {
+  color: var(--bg-color);
+  position: absolute;
+  right: 1rem;
+}
+
+.modal_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  height: 100%;
+}
+
 @media (max-width: 800px){
   .ketgmbr{
     grid-template-columns: 1fr;
