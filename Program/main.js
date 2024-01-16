@@ -26,3 +26,15 @@ menu.onclick = () => {
   document.querySelector("#modal_text").textContent =
     "coba text isi paragraf";
 });
+
+document.querySelector("#modal_close_icon").addEventListener("click", () => {
+  // tutup modal
+  document.querySelector(".modal_layout").style.display = "none";
+});
+
+// tutup modal di sembarang area
+window.addEventListener("click", (e) => {
+if (e.target == document.querySelector(".modal_layout")) {
+  document.querySelector(".modal_layout").style.display = "none";
+}
+});
