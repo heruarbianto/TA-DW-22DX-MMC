@@ -430,6 +430,15 @@ section{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.modal_frame {
+  position: relative;
+  background-color: var(--text-color);
+  width: 60%;
+  margin: 5% auto;
+  border: 1px solid var(--main-color);
+  padding: 0.5rem;
+}
+
 @media (max-width: 800px){
   .ketgmbr{
     grid-template-columns: 1fr;
