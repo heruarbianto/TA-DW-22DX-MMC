@@ -529,6 +529,10 @@ section{
     max-width: 100%;
     margin-bottom: 1rem;
   }
+  .modal_content p {
+    margin-left: 0;
+    text-align: center;
+  }
 
 }
 
