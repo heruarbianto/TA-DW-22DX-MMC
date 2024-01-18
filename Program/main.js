@@ -58,3 +58,10 @@ menu.onclick = () => {
   //menutup modal dengan mengubah properti tata letak CSS
   document.querySelector(".modal_layout").style.display = "none";
   });
+
+  // menutup modal di semua area yang di klik
+  window.addEventListener("click", (e) => {
+  if (e.target == document.querySelector(".modal_layout")) {
+    document.querySelector(".modal_layout").style.display = "none";
+      }
+  });
