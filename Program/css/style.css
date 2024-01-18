@@ -360,6 +360,7 @@ section{
   z-index: 2;
 }
 
+
 .modal_frame {
   position: relative;
   background-color: var(--text-color);
@@ -511,3 +512,4 @@ section{
     padding: 60px 5% 50px;
   }
 }
+
