@@ -40,3 +40,8 @@ menu.onclick = () => {
   }
   });
 
+
+  // ketika button jelajahi destinasi di klik
+    document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
+     });
+    
