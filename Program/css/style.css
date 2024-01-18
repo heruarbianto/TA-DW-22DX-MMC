@@ -513,3 +513,11 @@ section{
   }
 }
 
+
+/* Responsive Modal sementara */
+@media (max-width: 800px) {
+  .modal_frame {
+    width: 80%;
+  }
+}
+
