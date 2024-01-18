@@ -47,5 +47,6 @@ menu.onclick = () => {
   document.querySelector(".modal_layout").style.display = "flex";
   // menampilkan images b
   document.querySelector("#modal_image").src = "img/b.jpg";
+  document.querySelector("#modal_image").alt = "gambar jelajahi destinasi wisata";
      });
     
