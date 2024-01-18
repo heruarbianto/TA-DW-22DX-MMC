@@ -59,7 +59,7 @@ menu.onclick = () => {
   document.querySelector(".modal_layout").style.display = "none";
   });
 
-  // menutup modal di semua area yang di klik
+  // menutup modal di area bebas yang di klik
   window.addEventListener("click", (e) => {
   if (e.target == document.querySelector(".modal_layout")) {
     document.querySelector(".modal_layout").style.display = "none";
