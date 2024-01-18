@@ -43,5 +43,7 @@ menu.onclick = () => {
 
   // ketika button jelajahi destinasi di klik
     document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
+  // menampilkan modal
+  document.querySelector(".modal_layout").style.display = "flex";
      });
     
