@@ -54,5 +54,7 @@ menu.onclick = () => {
   });
     
   //menambahkan event listener pada ikon penutup modal
-  document.querySelector("#modal_close_icon").addEventListener("click", () => {   
+  document.querySelector("#modal_close_icon").addEventListener("click", () => {  
+  //menutup modal dengan mengubah properti tata letak CSS
+  document.querySelector(".modal_layout").style.display = "none";
   });
