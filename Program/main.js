@@ -52,3 +52,22 @@ menu.onclick = () => {
   document.querySelector("#modal_text").textContent =
    "Indonesia menawarkan destinasi ekowisata menakjubkan, seperti Pulau Menjangan di Bali dan Tanjung Ringgit di Lombok yang didedikasikan 90% untuk ekowisata. Taman Nasional Alas Purwo di Banyuwangi dan Taman Nasional Way Kambas di Lampung fokus pada pelestarian alam. Taman Nasional Tanjung Puting di Kalimantan Tengah menyuguhkan pengalaman unik melalui perjalanan sungai untuk melihat orangutan dilindungi.";
   });
+
+  //menambahkan fitur auto scroll
+  document.querySelector("#EnergiTerbarukan").addEventListener("click", () => {
+    const tentangKamiSection = document.getElementById("PanelSurya");
+    tentangKamiSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+document.querySelector("#TransportasiRamahLingkungan").addEventListener("click", () => {
+  const tentangKamiSection = document.getElementById("MotorListrik");
+  tentangKamiSection.scrollIntoView({ behavior: 'smooth' });
+});
+document.querySelector("#PengelolaanLimbah").addEventListener("click", () => {
+  const tentangKamiSection = document.getElementById("DaurUlang");
+  tentangKamiSection.scrollIntoView({ behavior: 'smooth' });
+});
+document.querySelector("#PertanianBerkelanjutan").addEventListener("click", () => {
+  const tentangKamiSection = document.getElementById("PertanianOrganik");
+  tentangKamiSection.scrollIntoView({ behavior: 'smooth' });
+});
