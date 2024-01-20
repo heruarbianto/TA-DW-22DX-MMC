@@ -363,6 +363,7 @@ section {
   z-index: 2;
 }
 
+
 .modal_frame {
   position: relative;
   background-color: var(--text-color);
@@ -558,3 +559,35 @@ section {
     margin-left: 0;
   }
 }
+
+
+/* Responsive Modal sementara */
+@media (max-width: 800px) {
+  .modal_frame {
+    width: 80%;
+  }
+  .modal_content {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  .modal_content img {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  .modal_content p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .modal_frame {
+    width: 90%;
+  }
+}
+
+
+
