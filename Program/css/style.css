@@ -480,6 +480,20 @@ section {
   .nav.open {
     left: 0;
   }
+  .modal_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal_content img {
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .modal_content p {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 800px) {
@@ -502,7 +516,7 @@ section {
     margin-bottom: 1rem;
     width: 100%;
     height: auto;
-    margin-top: 10rem;
+    margin-top: 3rem;
   }
   .modal_content p {
     margin-left: 0;
@@ -561,33 +575,6 @@ section {
 }
 
 
-/* Responsive Modal sementara */
-@media (max-width: 800px) {
-  .modal_frame {
-    width: 80%;
-  }
-  .modal_content {
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-  }
-  .modal_content img {
-    height: auto;
-    max-width: 100%;
-    margin-bottom: 1rem;
-  }
-  .modal_content p {
-    margin-left: 0;
-    text-align: center;
-  }
-
-}
-
-@media (max-width: 600px) {
-  .modal_frame {
-    width: 90%;
-  }
-}
 
 
 
