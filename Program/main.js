@@ -92,4 +92,8 @@ document.querySelector("#scroll-to-inovasi").addEventListener("click", () => {
 document.querySelector("#Read-More").addEventListener("click", () => {
 // menampilkan modal
 document.querySelector(".modal_layout").style.display = "flex";
+  // menampilkan images c
+  document.querySelector("#modal_image").src = "img/c.jpg";
+  document.querySelector("#modal_image").alt =
+    "gambar Budaya lokal dan konservasi alam";
 });
