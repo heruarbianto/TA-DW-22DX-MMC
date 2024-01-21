@@ -89,11 +89,14 @@ document.querySelector("#scroll-to-inovasi").addEventListener("click", () => {
 
 
 // ketika button Read More di klik
-document.querySelector("#Read-More").addEventListener("click", () => {
-// menampilkan modal
-document.querySelector(".modal_layout").style.display = "flex";
+    document.querySelector("#Read-More").addEventListener("click", () => {
+  // menampilkan modal
+   document.querySelector(".modal_layout").style.display = "flex";
   // menampilkan images c
   document.querySelector("#modal_image").src = "img/c.jpg";
   document.querySelector("#modal_image").alt =
     "gambar Budaya lokal dan konservasi alam";
+    // menampilkan text paragraf
+  document.querySelector("#modal_text").textContent =
+  "Budaya lokal dan konservasi alam Keseimbangan harmonis antara tradisi masyarakat dan pelestarian lingkungan. Nilai-nilai budaya mendukung gaya hidup berkelanjutan, sementara upaya konservasi melindungi keanekaragaman hayati. Bersama, keduanya membentuk fondasi untuk membangun masyarakat yang peduli pada lingkungan dan warisan budayanya..";
 });
