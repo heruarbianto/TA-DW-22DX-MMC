@@ -551,6 +551,9 @@ section {
   .modal_content p {
     margin-left: 0;
   }
+  .inovasi-terbaru {
+    padding: 30px 5% 20px;
+  }
 }
 
 @media (max-width: 600px) {
