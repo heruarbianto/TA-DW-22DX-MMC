@@ -415,6 +415,11 @@ section {
   text-align: left;
 }
 
+.inovasi-table th {
+  background-color: var(--main-color);
+  color: var(--bg-color);
+}
+
 @keyframes modal_transition {
   from {
     top: -100%;
