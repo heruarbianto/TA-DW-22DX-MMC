@@ -90,4 +90,6 @@ document.querySelector("#scroll-to-inovasi").addEventListener("click", () => {
 
 // ketika button Read More di klik
 document.querySelector("#Read-More").addEventListener("click", () => {
+// menampilkan modal
+document.querySelector(".modal_layout").style.display = "flex";
 });
