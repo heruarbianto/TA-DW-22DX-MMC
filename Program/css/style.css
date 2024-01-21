@@ -399,6 +399,10 @@ section {
   text-align: justify;
 }
 
+.inovasi-terbaru {
+  padding: 70px 17% 60px;
+}
+
 @keyframes modal_transition {
   from {
     top: -100%;
