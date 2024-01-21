@@ -86,3 +86,8 @@ document.querySelector("#scroll-to-inovasi").addEventListener("click", () => {
   const inovasiTerbaruSection = document.querySelector(".inovasi-terbaru");
   inovasiTerbaruSection.scrollIntoView({ behavior: "smooth" });
 });
+
+
+// ketika button Read More di klik
+document.querySelector("#Read-More").addEventListener("click", () => {
+});
