@@ -441,6 +441,9 @@ section {
   section {
     padding: 50px 8% 40px;
   }
+  .inovasi-terbaru {
+    padding: 60px 8% 50px;
+  }
 }
 
 @media (max-width: 1200px) {
