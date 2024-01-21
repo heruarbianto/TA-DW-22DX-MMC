@@ -464,6 +464,9 @@ section {
   .home {
     height: 90vh;
   }
+  .inovasi-terbaru {
+    padding: 50px 5% 40px;
+  }
 }
 
 @media (max-width: 1050px) {
