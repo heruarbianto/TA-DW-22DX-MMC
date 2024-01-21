@@ -409,6 +409,12 @@ section {
   margin-top: 30px;
 }
 
+.inovasi-table th, .inovasi-table td {
+  border: 1px solid var(--main-color);
+  padding: 15px;
+  text-align: left;
+}
+
 @keyframes modal_transition {
   from {
     top: -100%;
