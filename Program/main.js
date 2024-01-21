@@ -80,3 +80,9 @@ document
     const tentangKamiSection = document.getElementById("TentangKamiSection");
     tentangKamiSection.scrollIntoView({ behavior: "smooth" });
   });
+
+  // Scroll ke tabel inovasi terbaru
+document.querySelector("#scroll-to-inovasi").addEventListener("click", () => {
+  const inovasiTerbaruSection = document.querySelector(".inovasi-terbaru");
+  inovasiTerbaruSection.scrollIntoView({ behavior: "smooth" });
+});
