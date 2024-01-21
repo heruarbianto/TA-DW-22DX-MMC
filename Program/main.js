@@ -52,6 +52,19 @@ document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
     "Indonesia menawarkan destinasi ekowisata menakjubkan, seperti Pulau Menjangan di Bali dan Tanjung Ringgit di Lombok yang didedikasikan 90% untuk ekowisata. Taman Nasional Alas Purwo di Banyuwangi dan Taman Nasional Way Kambas di Lampung fokus pada pelestarian alam. Taman Nasional Tanjung Puting di Kalimantan Tengah menyuguhkan pengalaman unik melalui perjalanan sungai untuk melihat orangutan dilindungi.";
 });
 
+// ketika button Read More di klik
+document.querySelector("#Read-More").addEventListener("click", () => {
+  // menampilkan modal
+   document.querySelector(".modal_layout").style.display = "flex";
+  // menampilkan images c
+  document.querySelector("#modal_image").src = "img/c.jpg";
+  document.querySelector("#modal_image").alt =
+    "gambar Budaya lokal dan konservasi alam";
+    // menampilkan text paragraf
+  document.querySelector("#modal_text").textContent =
+  "Budaya lokal dan konservasi alam Keseimbangan harmonis antara tradisi masyarakat dan pelestarian lingkungan. Nilai-nilai budaya mendukung gaya hidup berkelanjutan, sementara upaya konservasi melindungi keanekaragaman hayati. Bersama, keduanya membentuk fondasi untuk membangun masyarakat yang peduli pada lingkungan dan warisan budayanya..";
+});
+
 //menambahkan fitur auto scroll
 document.querySelector("#EnergiTerbarukan").addEventListener("click", () => {
   const tentangKamiSection = document.getElementById("PanelSurya");
@@ -85,18 +98,4 @@ document
 document.querySelector("#scroll-to-inovasi").addEventListener("click", () => {
   const inovasiTerbaruSection = document.querySelector(".inovasi-terbaru");
   inovasiTerbaruSection.scrollIntoView({ behavior: "smooth" });
-});
-
-
-// ketika button Read More di klik
-    document.querySelector("#Read-More").addEventListener("click", () => {
-  // menampilkan modal
-   document.querySelector(".modal_layout").style.display = "flex";
-  // menampilkan images c
-  document.querySelector("#modal_image").src = "img/c.jpg";
-  document.querySelector("#modal_image").alt =
-    "gambar Budaya lokal dan konservasi alam";
-    // menampilkan text paragraf
-  document.querySelector("#modal_text").textContent =
-  "Budaya lokal dan konservasi alam Keseimbangan harmonis antara tradisi masyarakat dan pelestarian lingkungan. Nilai-nilai budaya mendukung gaya hidup berkelanjutan, sementara upaya konservasi melindungi keanekaragaman hayati. Bersama, keduanya membentuk fondasi untuk membangun masyarakat yang peduli pada lingkungan dan warisan budayanya..";
 });
