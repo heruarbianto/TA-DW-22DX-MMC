@@ -69,37 +69,3 @@ document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
   document.querySelector("#modal_text").textContent =
     "Solar panel adalah solusi energi terbarukan yang berkelanjutan dan ramah lingkungan. Dengan daya utama sinar matahari, maka dapat membantu mengurangi emisi gas rumah kaca. Panel surya dan lingkungan adalah perpaduan yang tepat untuk keberlanjutan bumi. Mari hubungi Kami untuk memiliki solar panel!";
 });
-
-
-//menambahkan fitur auto scroll
-document.querySelector("#EnergiTerbarukan").addEventListener("click", () => {
-  const tentangKamiSection = document.getElementById("PanelSurya");
-  tentangKamiSection.scrollIntoView({ behavior: "smooth" });
-});
-
-document
-  .querySelector("#TransportasiRamahLingkungan")
-  .addEventListener("click", () => {
-    const tentangKamiSection = document.getElementById("MotorListrik");
-    tentangKamiSection.scrollIntoView({ behavior: "smooth" });
-  });
-document.querySelector("#PengelolaanLimbah").addEventListener("click", () => {
-  const tentangKamiSection = document.getElementById("DaurUlang");
-  tentangKamiSection.scrollIntoView({ behavior: "smooth" });
-});
-document
-  .querySelector("#PertanianBerkelanjutan")
-  .addEventListener("click", () => {
-    const tentangKamiSection = document.getElementById("PertanianOrganik");
-    tentangKamiSection.scrollIntoView({ behavior: "smooth" });
-  });
-document.querySelector("#TentangKami").addEventListener("click", () => {
-  const tentangKamiSection = document.getElementById("TentangKamiSection");
-  tentangKamiSection.scrollIntoView({ behavior: "smooth" });
-});
-
-// Scroll ke tabel inovasi terbaru
-document.querySelector("#scroll-to-inovasi").addEventListener("click", () => {
-  const inovasiTerbaruSection = document.querySelector(".inovasi-terbaru");
-  inovasiTerbaruSection.scrollIntoView({ behavior: "smooth" });
-});
