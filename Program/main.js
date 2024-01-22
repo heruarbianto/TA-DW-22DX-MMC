@@ -67,7 +67,7 @@ document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
   document.querySelector("#PanelSurya").addEventListener("click", () => {
     document.querySelector("#modal_title").textContent = "Panel Surya";
   document.querySelector(".modal_layout").style.display = "flex";
-  document.querySelector("#modal_image").src = "img/t1.jpg";
+  document.querySelector("#modal_image").src = "img/p1.jpg";
   document.querySelector("#modal_image").alt =
     "gambar panel surya";
   document.querySelector("#modal_text").textContent =
@@ -78,7 +78,7 @@ document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
 document.querySelector("#MotorListrik").addEventListener("click", () => {
   document.querySelector(".modal_layout").style.display = "flex";
   document.querySelector("#modal_title").textContent = "Motor Listrik";
-  document.querySelector("#modal_image").src = "img/t2.jpg";
+  document.querySelector("#modal_image").src = "img/p2.jpg";
   document.querySelector("#modal_image").alt =
     "gambar Motor Listrik";
   document.querySelector("#modal_text").textContent =
@@ -89,7 +89,7 @@ document.querySelector("#MotorListrik").addEventListener("click", () => {
 document.querySelector("#DaurUlang").addEventListener("click", () => {
   document.querySelector(".modal_layout").style.display = "flex";
   document.querySelector("#modal_title").textContent = "Daur Ulang & Kompos";
-  document.querySelector("#modal_image").src = "img/t3.jpg";
+  document.querySelector("#modal_image").src = "img/p3.jpg";
   document.querySelector("#modal_image").alt =
     "gambar daur ulang";
   document.querySelector("#modal_text").textContent =
@@ -100,7 +100,7 @@ document.querySelector("#DaurUlang").addEventListener("click", () => {
 document.querySelector("#PertanianOrganik").addEventListener("click", () => {
   document.querySelector(".modal_layout").style.display = "flex";
   document.querySelector("#modal_title").textContent = "Pertanian Organik";
-  document.querySelector("#modal_image").src = "img/t4.jpg";
+  document.querySelector("#modal_image").src = "img/p4.jpg";
   document.querySelector("#modal_image").alt =
     "gambar pertanian organik";
   document.querySelector("#modal_text").textContent =
