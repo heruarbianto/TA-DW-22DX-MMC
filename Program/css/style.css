@@ -382,22 +382,29 @@ section {
 }
 
 .modal_content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  height: 100%;
+  display: grid;
+  grid-template-areas:
+  "image text";
+  grid-template-columns: 1fr 2fr; /* fr satuan untuk setting kolom grid*/
 }
 
 .modal_content img {
-  height: 40%;
+  grid-area: image;
   border-radius: 10px;
+  display: grid;
+  max-width: 100%; 
+  max-height: 100%;
+  object-fit: cover;
 }
 
 .modal_content p {
+  grid-area: text;
   color: var(--bg-color);
   margin-left: 25px;
   text-align: justify;
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
 }
 .modal_frame h3{
   color: var(--bg-color);
