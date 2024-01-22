@@ -80,3 +80,22 @@ document.querySelector("#MotorListrik").addEventListener("click", () => {
     "Motor listrik adalah contoh dari teknologi energi bersih (clean energy technology). Clean energy technology adalah teknologi yang menghasilkan level gas rumah kaca yang sangat rendah atau mendekati nol jika dibandingkan dengan teknologi lainnya. Motor listrik menggunakan bahan bakar listrik. Salah satu cara memperoleh listrik itu sendiri adalah melalui pemanfaatan energi panas matahari yang diubah menjadi energi listrik dengan menggunakan panel surya. Tenaga surya merupakan salah satu sumber energi terbarukan yang masih tersedia dan tidak mungkin habis. Motor listrik tidak mengeluarkan suara bising yang memekakkan telinga, sehingga tidak ada polusi suara. Motor listrik juga tidak mencemari udara karena tidak mengeluarkan gas emisi yang dapat mencemari lingkungan.";
 });
 
+//modal Daur Ulang
+document.querySelector("#DaurUlang").addEventListener("click", () => {
+  document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_image").src = "img/t3.jpg";
+  document.querySelector("#modal_image").alt =
+    "gambar daur ulang";
+  document.querySelector("#modal_text").textContent =
+    "Pengkomposan merupakan suatu teknik pengolahan limbah padat yang mengandung bahan-bahan organik yang biodegradable (dapat diuraikan oleh mikroorganisme). Adapun prinsip dari proses pengomposan adalah menurunkan C/N bahan organik hingga sama atau hampir sama dengan nisbah C/N tanah. dengan demikian nitrogen dapat dilepas dan dapat dimanfaatkan oleh tanaman. Tujuan proses pengomposan ini yaitu merubah bahan organik yang menjadi limbah menjadi produk yang mudah dan aman untuk ditangan, disimpan, diaplikasikan ke lahan pertanian dengan aman tanpa menimbulkan efek negatif baik pada tanah maupun pada lingkungan pada lingkungan. Proses pengomposan dapat terjadi secara aerob (menggunakan oksigen) atau anaerob (tidak ada oksigen). Pada proses pengomposan dengan adanya oksigen (aerob) akan menghasilkan CO2, NH3, H2O dan panas, sedangkan pada proses pengomposan tanpa adanya oksigen (anaerob) akan menghasilkan produk akhir berupa (CH4), CO2, CH3, sejumlah gas dan asam organik.";
+});
+
+//modal Pertanian Organik
+document.querySelector("#PertanianOrganik").addEventListener("click", () => {
+  document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_image").src = "img/t4.jpg";
+  document.querySelector("#modal_image").alt =
+    "gambar pertanian organik";
+  document.querySelector("#modal_text").textContent =
+    "Pertanian organik adalah sistem produksi pertanian yang holistik dan terpadu yang mengoptimalkan kesehatan dan produktivitas agro-ekosistem secara alami, sehingga mampu menghasilkan pangan dan serat yang cukup, berkualitas, dan berkelanjutan. Simpelnya, Pertanian organik adalah sebuah sistem pertanian yang menggunakan bahan bahan alami tanpa bahan mengandung zat kimia. Ada Beberapa jenis tanaman Indonesia yang berpotensi untuk dikembangkan dengan teknik tersebut, diantaranya adalah tanaman padi, hortikultura yang meliputi tanaman sayur, buah, bunga, dan tanaman obat (contohnya: brokoli, kubis merah, jeruk, dll.), tanaman perkebunan (kopi, teh, kelapa, dll.), dan rempah-rempah.";
+});

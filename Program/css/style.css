@@ -391,6 +391,7 @@ section {
 
 .modal_content img {
   height: 40%;
+  border-radius: 10px;
 }
 
 .modal_content p {
