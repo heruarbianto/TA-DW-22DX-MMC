@@ -65,17 +65,19 @@ document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
 });
   //modal panel surya
   document.querySelector("#PanelSurya").addEventListener("click", () => {
+    document.querySelector("#modal_title").textContent = "Panel Surya";
   document.querySelector(".modal_layout").style.display = "flex";
   document.querySelector("#modal_image").src = "img/t1.jpg";
   document.querySelector("#modal_image").alt =
     "gambar panel surya";
   document.querySelector("#modal_text").textContent =
-    "Solar panel adalah solusi energi terbarukan yang berkelanjutan dan ramah lingkungan. Dengan daya utama sinar matahari, maka dapat membantu mengurangi emisi gas rumah kaca. Panel surya dan lingkungan adalah perpaduan yang tepat untuk keberlanjutan bumi. Mari hubungi Kami untuk memiliki solar panel!";
+    "Solar panel, sebuah inovasi canggih dalam bidang energi terbarukan, membawa solusi berkelanjutan dan ramah lingkungan untuk memenuhi kebutuhan listrik. Dengan mengandalkan daya sinar matahari sebagai sumber utamanya, solar panel mampu memberikan kontribusi positif dalam mengurangi emisi gas rumah kaca, menyelaraskan langkah-langkah menuju gaya hidup yang lebih berkelanjutan. Kehadiran panel surya menjadi simbol keselarasan antara teknologi modern dan keberlanjutan lingkungan, membuka peluang bagi perubahan positif dalam pemanfaatan sumber daya alam. Seiring dengan perhatian terhadap isu-isu lingkungan, penggunaan panel surya dianggap sebagai langkah yang tepat untuk menjaga keseimbangan ekosistem bumi. Untuk mewujudkan visi keberlanjutan dan berkontribusi pada pelestarian lingkungan, kami mengundang Anda untuk menghubungi kami dan menjelajahi berbagai solusi solar panel yang dapat disesuaikan dengan kebutuhan energi Anda.";
 });
 
 //modal Motor Listrik
 document.querySelector("#MotorListrik").addEventListener("click", () => {
   document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_title").textContent = "Motor Listrik";
   document.querySelector("#modal_image").src = "img/t2.jpg";
   document.querySelector("#modal_image").alt =
     "gambar Motor Listrik";
@@ -86,6 +88,7 @@ document.querySelector("#MotorListrik").addEventListener("click", () => {
 //modal Daur Ulang
 document.querySelector("#DaurUlang").addEventListener("click", () => {
   document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_title").textContent = "Daur Ulang & Kompos";
   document.querySelector("#modal_image").src = "img/t3.jpg";
   document.querySelector("#modal_image").alt =
     "gambar daur ulang";
@@ -96,6 +99,7 @@ document.querySelector("#DaurUlang").addEventListener("click", () => {
 //modal Pertanian Organik
 document.querySelector("#PertanianOrganik").addEventListener("click", () => {
   document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_title").textContent = "Pertanian Organik";
   document.querySelector("#modal_image").src = "img/t4.jpg";
   document.querySelector("#modal_image").alt =
     "gambar pertanian organik";

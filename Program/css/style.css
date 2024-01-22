@@ -398,6 +398,7 @@ section {
   color: var(--bg-color);
   margin-left: 25px;
   text-align: justify;
+  box-sizing: border-box;
 }
 .modal_frame h3{
   color: var(--bg-color);
