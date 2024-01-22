@@ -19,6 +19,7 @@ menu.onclick = () => {
 document.querySelector("#read-Home").addEventListener("click", () => {
   // tampilkan modal
   document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_title").textContent = "Teknologi Hijau";
   // tampilkan image 1
   document.querySelector("#modal_image").src = "img/a.jpg";
   document.querySelector("#modal_image").alt = "gambar seputar teknologi hijau";
