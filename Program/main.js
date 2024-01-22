@@ -115,3 +115,11 @@ document.querySelector("#VisiMisi").addEventListener("click", () => {
     "Platform kami memiliki komitmen untuk menjadi pelopor utama dalam mengedukasi, mempromosikan, dan mendukung pengembangan teknologi hijau serta praktek ramah lingkungan. Visi kami adalah menciptakan dan menjadi bagian integral dari sebuah masa depan yang berkelanjutan, di mana teknologi hijau menjadi tulang punggung dalam mengatasi tantangan lingkungan global. Untuk merealisasikan visi ini, kami memiliki beberapa misi utama, yang mencakup menyediakan informasi terkini tentang inovasi dalam teknologi hijau, mendorong penerapan teknologi hijau dalam kehidupan sehari-hari guna mengurangi dampak lingkungan, mempromosikan destinasi wisata yang ramah lingkungan, dan memberikan platform edukatif kepada masyarakat untuk lebih memahami serta berkontribusi dalam menciptakan masa depan yang berkelanjutan.";
 });
 
+
+//modal Keuntungan
+document.querySelector("#KeuntunganKeberlanjutan").addEventListener("click", () => {
+  document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_title").textContent = "Keuntungan Keberlanjutan";
+  document.querySelector("#modal_text").textContent =
+    "Keberlanjutan menawarkan sejumlah keuntungan yang tak hanya memperkaya lingkungan, tetapi juga menciptakan dampak positif dalam berbagai aspek kehidupan kita. Salah satu keuntungan utama dari prinsip keberlanjutan adalah pemeliharaan sumber daya alam yang berkelanjutan, memastikan bahwa generasi mendatang juga dapat menikmati kekayaan bumi. Dalam konteks ekonomi, praktik-praktik berkelanjutan memberikan peluang baru dalam menciptakan lapangan pekerjaan dan mendorong pertumbuhan ekonomi yang seimbang. Selain itu, kesadaran akan keberlanjutan merangsang inovasi dan pengembangan teknologi ramah lingkungan, membuka pintu bagi solusi kreatif dalam mengatasi tantangan lingkungan. Di tingkat sosial, fokus pada keberlanjutan juga meningkatkan kesejahteraan masyarakat, menciptakan komunitas yang lebih kuat, dan mempromosikan tanggung jawab bersama terhadap kelestarian planet ini. Oleh karena itu, investasi dalam keberlanjutan bukan hanya investasi dalam masa depan bumi, tetapi juga investasi dalam kesejahteraan dan kelangsungan hidup kita sebagai masyarakat global.";
+});
