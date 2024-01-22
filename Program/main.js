@@ -69,3 +69,14 @@ document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
   document.querySelector("#modal_text").textContent =
     "Solar panel adalah solusi energi terbarukan yang berkelanjutan dan ramah lingkungan. Dengan daya utama sinar matahari, maka dapat membantu mengurangi emisi gas rumah kaca. Panel surya dan lingkungan adalah perpaduan yang tepat untuk keberlanjutan bumi. Mari hubungi Kami untuk memiliki solar panel!";
 });
+
+//modal Motor Listrik
+document.querySelector("#MotorListrik").addEventListener("click", () => {
+  document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_image").src = "img/t2.jpg";
+  document.querySelector("#modal_image").alt =
+    "gambar Motor Listrik";
+  document.querySelector("#modal_text").textContent =
+    "Motor listrik adalah contoh dari teknologi energi bersih (clean energy technology). Clean energy technology adalah teknologi yang menghasilkan level gas rumah kaca yang sangat rendah atau mendekati nol jika dibandingkan dengan teknologi lainnya. Motor listrik menggunakan bahan bakar listrik. Salah satu cara memperoleh listrik itu sendiri adalah melalui pemanfaatan energi panas matahari yang diubah menjadi energi listrik dengan menggunakan panel surya. Tenaga surya merupakan salah satu sumber energi terbarukan yang masih tersedia dan tidak mungkin habis. Motor listrik tidak mengeluarkan suara bising yang memekakkan telinga, sehingga tidak ada polusi suara. Motor listrik juga tidak mencemari udara karena tidak mengeluarkan gas emisi yang dapat mencemari lingkungan.";
+});
+
