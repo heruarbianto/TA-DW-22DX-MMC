@@ -106,3 +106,12 @@ document.querySelector("#PertanianOrganik").addEventListener("click", () => {
   document.querySelector("#modal_text").textContent =
     "Pertanian organik adalah sistem produksi pertanian yang holistik dan terpadu yang mengoptimalkan kesehatan dan produktivitas agro-ekosistem secara alami, sehingga mampu menghasilkan pangan dan serat yang cukup, berkualitas, dan berkelanjutan. Simpelnya, Pertanian organik adalah sebuah sistem pertanian yang menggunakan bahan bahan alami tanpa bahan mengandung zat kimia. Ada Beberapa jenis tanaman Indonesia yang berpotensi untuk dikembangkan dengan teknik tersebut, diantaranya adalah tanaman padi, hortikultura yang meliputi tanaman sayur, buah, bunga, dan tanaman obat (contohnya: brokoli, kubis merah, jeruk, dll.), tanaman perkebunan (kopi, teh, kelapa, dll.), dan rempah-rempah.";
 });
+
+//modal Visi dan misi
+document.querySelector("#VisiMisi").addEventListener("click", () => {
+  document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_title").textContent = "Visi & Misi";
+  document.querySelector("#modal_text").textContent =
+    "Platform kami memiliki komitmen untuk menjadi pelopor utama dalam mengedukasi, mempromosikan, dan mendukung pengembangan teknologi hijau serta praktek ramah lingkungan. Visi kami adalah menciptakan dan menjadi bagian integral dari sebuah masa depan yang berkelanjutan, di mana teknologi hijau menjadi tulang punggung dalam mengatasi tantangan lingkungan global. Untuk merealisasikan visi ini, kami memiliki beberapa misi utama, yang mencakup menyediakan informasi terkini tentang inovasi dalam teknologi hijau, mendorong penerapan teknologi hijau dalam kehidupan sehari-hari guna mengurangi dampak lingkungan, mempromosikan destinasi wisata yang ramah lingkungan, dan memberikan platform edukatif kepada masyarakat untuk lebih memahami serta berkontribusi dalam menciptakan masa depan yang berkelanjutan.";
+});
+
