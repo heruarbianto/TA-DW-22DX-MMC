@@ -44,6 +44,7 @@ window.addEventListener("click", (e) => {
 document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
   // menampilkan modal
   document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_title").textContent = "Wisata Ramah Lingkungan";
   // menampilkan images b
   document.querySelector("#modal_image").src = "img/b.jpg";
   document.querySelector("#modal_image").alt =
@@ -55,6 +56,7 @@ document.querySelector("#Jelahai-Destinasi").addEventListener("click", () => {
   //modal wiasata ramah lingkungan
   document.querySelector("#Read-More").addEventListener("click", () => {
   document.querySelector(".modal_layout").style.display = "flex";
+  document.querySelector("#modal_title").textContent = "Budaya Lokal dan Konservasi Alam";
   document.querySelector("#modal_image").src = "img/c.jpg";
   document.querySelector("#modal_image").alt =
     "gambar Budaya lokal dan konservasi alam";
