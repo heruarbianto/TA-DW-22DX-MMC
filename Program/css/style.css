@@ -520,15 +520,10 @@ section {
     left: 0;
   }
   .modal_content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .modal_content img {
-    margin-bottom: 1rem;
-    width: 100%;
-    height: auto;
-    margin-top: 4rem;
+    grid-template-areas: 
+    "image"
+    "text";
+    grid-template-columns: 1fr;
   }
   .modal_content p {
     margin-left: 0;
@@ -549,20 +544,6 @@ section {
     grid-template-columns: 1fr;
   }
 
-  .modal_content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .modal_content img {
-    margin-bottom: 1rem;
-    width: 100%;
-    height: auto;
-    margin-top: 3rem;
-  }
-  .modal_content p {
-    margin-left: 0;
-  }
   .inovasi-terbaru {
     padding: 30px 5% 20px;
   }
@@ -577,20 +558,7 @@ section {
   .home {
     height: 85vh;
   }
-  .modal_content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .modal_content img {
-    margin-bottom: 1rem;
-    width: 100%;
-    height: auto;
-    margin-top: 9rem;
-  }
-  .modal_content p {
-    margin-left: 0;
-  }
+  
   .inovasi-terbaru {
     padding: 25px 5% 15px;
   }
@@ -606,20 +574,7 @@ section {
   section {
     padding: 60px 5% 50px;
   }
-  .modal_content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .modal_content img {
-    margin-bottom: 1rem;
-    width: 100%;
-    height: auto;
-    margin-top: 15rem;
-  }
-  .modal_content p {
-    margin-left: 0;
-  }
+  
   .inovasi-terbaru {
     padding: 20px 3% 10px;
   }
